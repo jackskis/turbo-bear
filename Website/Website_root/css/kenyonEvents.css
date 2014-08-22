@@ -1,0 +1,69 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  /*background-color: #fefde8;*/ }
+  html body header {
+    margin-bottom: 20px; }
+    html body header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      html body header nav ul li {
+        display: inline;
+        margin-right: 10px; }
+  html body section#home-page h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #4b2e84;
+    font-weight: 800;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.5);
+  }
+  html body section#home-page h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    color: #4b2e84;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.5);}
+    html body section#home-page h3 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: #4b2e84;
+    background:#7f7f7f;
+    background:rgba(255,255,255,0.5);}
+  html body section#home-page form {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+  html body section#home-page #register-now-button, html body section#home-page #account-info-button  {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+/*----This CSS if specifically for the "Regsiter a new user" page----*/
+  html body section#home-page form {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+/*Changes the color of selections on the web pages*/
+/*Mozilla*/
+::-moz-selection {
+       background-color: #816DA9;
+       color: #000;
+}
+/*Safari */
+::selection {
+       background-color: #816DA9;
+       color: #000;
+}
+/*------------------*/
+

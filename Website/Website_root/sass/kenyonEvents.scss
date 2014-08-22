@@ -1,0 +1,63 @@
+$kenyonPurple: #4B2E84;
+$fontFamilies: 'Open Sans', 'Arial', sans-serif;
+
+html{
+	padding: 0;
+	margin: 0;
+	font-family: $fontFamilies;
+
+	body{
+		background-image: url(google.com)
+
+		header{
+			margin-bottom: 20px;
+
+			nav{
+				ul{
+					list-style: none;
+					padding: 0;
+					margin: 0;
+
+					li{
+						display: inline;
+						margin-right: 10px;
+
+					}
+				}
+			}
+		}
+
+		section{
+			
+			&#home-page{
+				h1{
+					padding: 0;
+					margin: 0;
+					text-align: center;
+					font-size: 30px;
+					color:$kenyonPurple;
+				}
+
+				h2{
+					padding: 0;
+					margin: 0;
+					text-align: center;
+					font-size: 22px;
+					color:$kenyonPurple;
+				}
+
+				form{
+					padding: 0;
+					margin: 0;
+					text-align: center;
+				}
+
+				#register-now-button{
+					display:block;
+					margin:0 auto;
+				}
+			}
+		}
+
+	}
+}

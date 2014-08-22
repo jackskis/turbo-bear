@@ -1,0 +1,32 @@
+html {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", "Arial", sans-serif; }
+  html body header {
+    margin-bottom: 20px; }
+    html body header nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      html body header nav ul li {
+        display: inline;
+        margin-right: 10px; }
+  html body section#home-page h1 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    color: #4b2e84; }
+  html body section#home-page h2 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    color: #4b2e84; }
+  html body section#home-page form {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+  html body section#home-page #register-now-button {
+    display: block;
+    margin: 0 auto; }
